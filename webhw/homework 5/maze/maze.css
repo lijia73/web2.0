@@ -1,0 +1,128 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width:700px;
+	height:600px;
+	margin-top:5%;
+	font-family:Arial,Helvetica,FreeSans,sans-serif;
+}
+
+header{
+	text-align:center;
+}
+
+header p{
+	font-size:20px;
+}
+
+#result{
+	opacity:0;
+	transition:all 0.3s;
+}
+
+#result[enable]{
+	opacity:1;
+	transition:all 0.3s;
+}
+
+
+footer{
+	font-size:14px;
+	margin-left: auto;
+	margin-right: auto;
+	width:480px;
+}
+
+footer div{
+	margin-left: auto;
+	margin-right: auto;
+	width:80px;
+	height:20px;
+	background-color:#F0F0F0;
+	border:1px solid black;
+}
+
+
+#graph{
+	margin-left: auto;
+	margin-right: auto;
+	width:394px;
+	height:244px;
+}
+
+#graph .wall{
+	background-color:#F0F0F0;
+}
+
+
+#graph .top,.bottom{
+	border:1px solid black;
+	height:38px;
+}
+
+#graph .top{
+	position:relative;
+	top:1px;
+}
+
+#graph .bottom{
+	position:relative;
+	bottom:87px;
+}
+
+#graph .left,.right{
+	display:inline-block;
+	border:1px solid black;
+	border-top:none;
+	width:113px;
+	height:120px;
+}
+
+#graph .right{
+	float:left;
+}
+
+#graph .right{
+	float:right;
+}
+
+#graph .middle{
+	position:relative;
+	bottom:86px;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid black;
+	border-bottom:none;
+	width:78px;
+	height:120px;
+}
+
+.point{
+	display:inline-block;
+	border:1px solid black;
+	height:28px;
+	width:28px;
+	font-size:24px;
+	text-align:center;
+}
+
+#start{
+	background-color:#00FF00;
+	float:left;
+	clear: right;
+	
+}
+#end{
+	background-color:#9999FF;
+	float:right;
+	clear:right;
+}
+

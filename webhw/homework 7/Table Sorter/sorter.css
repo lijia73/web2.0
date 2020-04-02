@@ -1,0 +1,23 @@
+
+table,table tr th,table tr td{
+	border:1px solid gray;
+	border-collapse: collapse;
+	padding:5px 5px;
+}
+
+th{
+	text-align:left;
+	color:white;
+	background-color:#000066;
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:20px;
+}
+
+tr:nth-child(even){
+	background-color:#D0D0D0;
+}
+
+#staff th,#staff td{
+	padding-right:40px;
+}	

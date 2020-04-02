@@ -1,0 +1,210 @@
+body{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+#at-plus-container {
+	font-family: Sans-serif;
+	font-weight: bold;
+}
+
+#bottom-positioner {
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+}
+
+#bottom-positioner ul{
+	list-style-type:none;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+
+#info-bar {
+	background-color:#808080;
+	border-radius: 50%;
+	height:10px;
+	width:10px;
+	transition: all 0.4s ease-out 0.1s;
+	opacity:0;
+	position:relative;
+	top:250px;
+	overflow: hidden;
+}
+
+
+#button:hover #info-bar {
+	transform: translate(-25px, -40px);
+	transition-delay:0s;
+	height:150px;
+	width:150px;
+	opacity:1;
+}
+
+#info-bar li {
+	position: relative;
+	/* text-align: center; */
+}
+
+#info-bar li img {
+	vertical-align:middle;
+	height:28px;
+	width:28px;
+}
+
+.comment>img{
+	height:35px;
+	width:35px;
+}
+	
+#info-bar li span {
+	margin-left: 10px;
+	/* font-size: x-large; */
+}
+
+.user {
+	color:white;
+	top: -50px;
+}
+.comment {
+	font-size: 20pt;
+	color:white;
+	top: -100px;
+}
+.posted {
+	color:#079E6E;
+	top: -150px;
+}
+.like {
+	color:#079E6E;
+	top: -200px;
+}
+#button:hover .user {
+	transform: translate(50px, 65px);
+}
+
+#button:hover .comment {
+	transform: translate(40px, 125px);
+}
+#button:hover .posted {
+	transform: translate(25px, 185px);
+}
+#button:hover .like {
+	transform: translate(85px, 208px);
+}
+
+#control-ring-container{
+	border-radius: 50%; 
+}
+
+#control-ring-container li {
+	list-style: none;
+	border-radius:50%;
+	width: 32px;
+	height: 32px;
+	display: block;
+	position: relative;
+	background-color: #707070;
+	background-position:center;
+	background-repeat:no-repeat;
+	transition: all 0.4s ease-out 0.1s;
+	padding:5px;
+	opacity:0;
+}
+
+.mask {
+	background-image: url('assets/images/nomask.png');
+	top: 165px;
+}
+.history {
+	background-image: url('assets/images/history.png');
+	top: 135px;
+}
+.message {
+	background-image: url('assets/images/message.png');
+	top: 90px;
+}
+.setting {
+	background-image: url('assets/images/setting.png');
+	top: 70px;
+}
+.sign {
+	background-image: url('assets/images/signin.png');
+	top: 30px;
+}
+
+#button:hover #control-ring li {
+	opacity:1;
+	transition-delay:0s;
+}
+
+#button:hover #control-ring li:nth-child(1) {
+  transform: translate(-55px, 15px);
+}
+
+#button:hover #control-ring li:nth-child(2) {
+  transform: translate(-70px, 55px);
+}
+
+#button:hover #control-ring li:nth-child(3) {
+  transform: translate(-55px, 110px);
+}
+
+#button:hover #control-ring li:nth-child(4) {
+  transform: translate(-15px, 125px);
+}
+
+#button:hover #control-ring li:nth-child(5) {
+  transform: translate(40px, 120px);
+}
+
+#control-ring li span.unread {
+	background-color: red;
+	border-radius: 50%;
+	color: white;
+	height: 20px;
+	left: 25px;
+	padding-top: 1px;
+	padding-bottom: 3px;
+	position: absolute;
+	text-align: center;
+	top: -5px;
+	width: 25px;
+	overflow: hidden;
+}
+
+#button {
+	position:relative;
+}
+
+#button .apb {
+	height:40px;
+	width:40px;
+}
+
+#button .icon {
+	bottom:100px;
+	background:url(assets/images/atplus_white.png) center no-repeat;
+	background-color: #989FCF;
+	border-radius:50%;
+	height: 28px;
+	width: 28px;
+	background-size: 20px 15px;
+	transition: all 0.4s ease-out 0.1s;
+}
+
+#button:hover .icon {
+	background-color: rgba(48, 63, 159, 1);
+	background-image: url(assets/images/atplus_green.png);
+	transition: all 0.5s;
+	transform: scale(0.75, 0.75);
+	height: 90px;
+	width: 90px;
+	background-size: 60px 45px;
+	transition-delay:0s;
+}
+
+
+

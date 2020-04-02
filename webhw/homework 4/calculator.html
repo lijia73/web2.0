@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>简单计算器</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="calculator.js"></script>
+  </head>
+  
+  <body>
+	<div class="all-positioner">
+		<div class="title">
+			就是这么简单计算器
+		</div>
+		
+		<div class="operator-container">
+			<input id="result" disabled="disabled" value=""/><br/>
+			
+			<div class="key-contatiner">
+				<div class="line-1">
+					<button id="seveen" value="7" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> 7 </button>
+					<button id="eight" value="8" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> 8 </button>
+					<button id="nine" value="9" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> 9 </button>
+					<button id="divide" value="/" class="operator1" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> ÷ </button>
+				</div>	
+				
+				<div class="line-2">
+					<button id="four" value="4" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> 4 </button>
+					<button id="five" value="5" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> 5 </button>
+					<button id="six" value="6" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> 6 </button>
+					<button id="multiply" value="*" class="operator1" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> × </button>
+				</div>
+				
+				<div class="line-3">
+					<button id="one" value="1" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> 1 </button>
+					<button id="two" value="2" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> 2 </button>
+					<button id="three" value="3" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> 3 </button>
+					<button id="sub" value="-" class="operator1" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> - </button>
+				</div>
+				
+				<div class="line-4">
+					<button id="zero" value="0" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> 0 </button>
+					<button id="point" value="." onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';" > . </button>
+					<button id="delete" value="delete" class="operator2" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> ← </button>
+					<button id="add" value="+" class="operator1" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> + </button>
+				</div>
+				
+				<div class="line-5">
+					<button id="left" value="(" class="operator2" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> ( </button>
+					<button id="right" value=")" class="operator2" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> ) </button>
+					<button id="clear" value="clear" class="operator2" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> CE </button>
+					<button id="calculate" value="calculate" class="operator1" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='';"> = </button>
+				</div>
+			</div>
+		</div>
+	</div>
+  </body>
+</html>

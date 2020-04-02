@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+	<title>Sign Up</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+	<script src="client.js"></script>
+  </head>
+  
+  <body>
+	<h1>用户注册</h1>
+	<form action="http://localhost:8000" method="post">
+		<div>用户名: <input type="text" name="name" id="name"></div>
+		<p id="name-tip"></p>
+		<div><span>学号: </span><input type="text" name="id" id="id"></div>
+		<p id="id-tip"></p>
+		<div><span>电话: </span><input type="text" name="phone" id="phone"></div>
+		<p id="phone-tip"></p>
+		<div><span>邮箱: </span><input type="text" name="mail" id="mail"></div>
+		<p id="mail-tip"></p>
+		<div id="btn"><input type="button" id="reset" value="重置" />
+		<input type="button" id="submit" value="提交" /></div>
+	</form>
+    <div id="warning"></div>
+	</body>
+</html>

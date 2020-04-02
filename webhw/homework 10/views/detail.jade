@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+        title User Information
+        link(rel="stylesheet", href="../static/css/style.css")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js")
+        script(src="../static/js/detail.js")
+    body
+        h2 用户详情
+        div.detail
+            span 用户名：#{username}
+        div.detail
+            span 学号：#{id}
+        div.detail
+            span 电话：#{phone}
+        div.detail
+            span 邮箱：#{mail}
+        if (flag)
+            div#warning_de
+                p#msg 只能够访问自己的数据
+            div#warning
+        div#right_up_sign
+            input(type="button", id="jump3", value="退出登录")

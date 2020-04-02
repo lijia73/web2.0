@@ -1,0 +1,140 @@
+/*
+	Web 2.0
+	Homework 2 Movie Review
+	Author: Jia Li
+	School ID: 18342048
+	Mail: GailLee666@outlook.com
+	movie.css
+	The CSS file for tmnt.html
+ */
+ 
+body{
+	background-image: url("http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/background.png?version=1&modificationDate=1268939512000&api=v2");
+	background-repeat: repeat;
+	font-family: Verdana，Tahoma, sans-serif;
+	font-size: 8pt;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	text-align: center;
+	font-family: Tahoma，Verdana, sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+.banner{
+	background-image: url("http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/bannerbackground.png?version=1&modificationDate=1268939512000&api=v2");
+	background-repeat: repeat-x;
+	text-align: center;
+	height:50px;
+}
+
+.overall{
+	border-style:solid;
+	border-width: 4px;
+	border-color: gray;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	font-size:0;
+}
+
+.critics_reviews{
+	display: inline-block;
+	width:550px;
+	position: relative;
+	right: 250px;
+	vertical-align:top;
+	font-size:8pt;
+	overflow:hidden;
+}
+
+.critics_reviews strong{
+	font-style: italic;
+	font-weight: normal;
+}
+
+.col-1,.col-2{
+	float:left;
+	margin-left:2%;
+	width:47%;
+}
+
+.comments{
+	border: 2px solid gray;
+	padding:8px;
+	background-color:#E1D697;
+	font-size: 8pt;
+	font-weight: bold;
+	overflow:auto;
+}
+.critic{
+	margin:0 0 3em 0;
+	min-height: 38px ;
+	
+}
+.col-1 img,.col-2 img{
+	float:left;
+	margin-right:5px;
+}
+
+.overview_of_the_film{
+	display: inline-block;
+	width:250px;
+	position: relative;
+	left: 550px;
+	font-size:8pt;
+	background-color:#A2B964;
+	font-family:Arial,sans-serif;
+	
+}
+dl{
+	padding: 10px;
+	margin:0;
+}
+
+dl>dt{
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+#pages{
+	margin:0;
+    padding: 5px;
+    text-align: center;
+    background-color:#A2B964;
+	font-size:8pt;
+}
+.overall_rotten_rating{
+	background-image: url("http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/rottenbackground.png?version=1&modificationDate=1268939585000&api=v2");
+	background-repeat: repeat-x;
+	color:white;
+}
+
+.overall_rotten_rating.img{
+	height:83px;
+}
+
+#integer-32 {
+  color: red;
+  font-size: 48pt;
+  font-weight: bold;
+  vertical-align: text-bottom;
+}
+
+#integer-88 {
+  color: white;
+  font-size: 8pt;
+  font-weight: normal;
+}
+
+#pageIndex{
+	position: fixed;
+    right: 0px;
+    bottom: 0px ;
+	margin: 0pt;
+}
+
+

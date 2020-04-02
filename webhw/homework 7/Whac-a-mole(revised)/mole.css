@@ -1,0 +1,56 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width:600px;
+	height:600px;
+	margin-top:5%;
+	font-family:Arial,Helvetica,FreeSans,sans-serif;
+}
+
+header{
+	text-align:center;
+	font-weight:normal;
+}
+
+header button,input{
+	margin-right:30px;
+}
+
+#graph{
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:5px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	width:300px;
+	height:150px;
+}
+
+footer{
+	font-size:10pt;
+}
+
+input,button{
+	background-color:white;
+	border:solid 1px #A0A0A0;
+}
+
+#graph input{
+	margin: 0px 0px 10px 12px;
+	position:relative;
+	right:5px;
+	top:6px;
+}
+
+
+

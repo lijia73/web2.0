@@ -1,0 +1,22 @@
+{
+  "name": "hw10signin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jade": "~1.11.0",
+    "mongodb": "^3.4.1",
+    "mongoose": "^4.13.7",
+    "q": "^1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

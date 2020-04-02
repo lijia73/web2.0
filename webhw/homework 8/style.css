@@ -1,0 +1,87 @@
+body{
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 500px;
+    text-align: center;
+    width: 700px;
+    font-family: Verdana, Tahoma, sans-serif;
+    border: 5px solid #660066;
+    background: url('bac.jpg') no-repeat fixed;
+    background-size: 100% 100%;
+}
+
+div{
+    margin-top: 25px;
+    margin-bottom: 20px;
+	font-weight:bold;
+}
+
+input{
+	margin-left:30px;
+}
+
+span{
+    margin-right: 13px;
+}
+
+.detail{
+    text-align: left;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+#name-tip, #id-tip, #phone-tip, #mail-tip{
+    height: 20px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+
+#reset, #submit, #re_index{
+    height: 30px;
+    width: 70px;
+    background-color: #660066;
+    border-radius: 10px;
+    transition: all 1s;
+    margin: 0 20px 10px 20px;
+	border:none;
+	color:white;
+}
+
+#re_index{
+    width: 150px;
+    margin-top: 50px;
+}
+
+#reset:hover, #submit:hover, #re_index:hover{
+    transform: scale(1.1);
+}
+
+#btn{
+    margin-left: auto;
+	margin-right: auto;
+    width: 300px;
+}
+
+#warning{
+    position: absolute;
+	bottom: 0;
+    opacity: 0;
+    height: 100px;
+    width: 700px;  
+    transition: all 0.5s;
+}
+
+#msg{
+    height: 100%;
+    width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}

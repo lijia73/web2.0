@@ -1,0 +1,127 @@
+body{
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 600px;
+    text-align: center;
+    width: 700px;
+    font-family: Verdana, Tahoma, sans-serif;
+    border: 5px solid #660066;
+    background: url('../image/bac.jpg') no-repeat fixed;
+    background-size: 100% 100%;
+}
+
+div{
+    margin-top: 20px;
+    margin-bottom: 15px;
+	font-weight:bold;
+}
+
+input{
+	margin-left:30px;
+}
+
+span{
+    margin-right: 13px;
+}
+
+.detail{
+    text-align: left;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+#name-tip, #id-tip, #phone-tip, #mail-tip, #pass-tip, #repass-tip{
+	
+    height: 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-left: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+
+#reset, #submit,#signin{
+    height: 30px;
+    width: 70px;
+    background-color: #660066;
+    border-radius: 10px;
+    transition: all 1s;
+    margin: 0 20px 10px 20px;
+	border:none;
+	color:white;
+}
+
+#re_index{
+    width: 150px;
+    margin-top: 50px;
+}
+
+#reset:hover, #submit:hover, #re_index:hover,#jump1:hover,#jump2:hover,#jump3:hover{
+    transform: scale(1.1);
+}
+
+#btn{
+    margin-left: auto;
+	margin-right: auto;
+    width: 300px;
+}
+
+#warning{
+    position: absolute;
+	bottom: -20px;
+    opacity: 0;
+    height: 50px;
+    width: 700px;  
+    transition: all 0.5s;
+}
+
+#msg{
+    height: 100%;
+    width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+	cursor:default;
+	margin-top:0px;
+}
+
+
+#repass-text{
+    margin-left: -35px;
+}
+#signin_name{
+    margin-top: 80px;
+    margin-bottom: 80px;
+	margin-right: 15px;
+}
+
+#signin_pass{
+    margin-bottom: 100px;
+}
+
+#name{
+	margin-left:11px;
+}
+
+.sname{
+	margin-left:26px !important; 
+}
+
+
+#back_text{
+	margin-right:0;
+}
+
+#jump1,#jump2,#jump3{
+	height: 30px;
+    width: 70px;
+    background-color: black;
+    border-radius: 10px;
+    transition: all 1s;
+    margin: 0 20px 10px 20px;
+	border:none;
+	color:white;
+}
